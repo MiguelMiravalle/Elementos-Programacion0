@@ -25,3 +25,26 @@ public class ServletAutenticar extends HttpServlet {
      //out.println("El login que llego es :"+login +"y el password es :"+password);
     }
 }
+
+/*
+package controllers;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class ServletAutenticar extends HttpServlet {
+
+    
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+    String login= request.getParameter("login");
+    String password= request.getParameter("password");
+    
+    }
+}
+*/
